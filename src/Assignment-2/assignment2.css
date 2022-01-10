@@ -1,7 +1,96 @@
 /* Our CSS file. */
 
+body {
+  background: white;
+}
+header {
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+#container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  padding: 0 10px;
+}
+
+.top_header {
+  border: 2px solid;
+  padding: 10px;
+  background: lightblue;
+}
+nav {
+  margin: 10px 0;
+  border: 2px solid;
+}
+.logo {
+  display: inline-block;
+}
+.logo img {
+  width: 150px;
+}
+.search {
+  float: right;
+  margin-top: 60px;
+}
+.searchimg input {
+  float: right;
+}
+.searchbar {
+  width: 20px;
+  position: relative;
+  left: 220px;
+  top: 4px;
+  border: 2px solid;
+}
+.leftbar {
+  width: 15%;
+  float: left;
+  border: 2px solid;
+  min-height: 450px;
+}
+.nav-list {
+  list-style-type: none;
+  text-align: center;
+}
+.nav-items {
+  display: inline-block;
+  padding: 0 20px;
+}
+.aside-list {
+  list-style-type: none;
+}
+.aside-list-items {
+  padding: 10px 5px;
+}
+.rightbar {
+  float: right;
+  width: 15%;
+  min-height: 450px;
+  border: 2px solid;
+}
+#rightbar-menu {
+  list-style-type: none;
+}
+#main-section {
+  display: inline-block;
+  width: 68%;
+}
+.wrapper-div {
+  margin: 0 5px;
+  border: 2px solid;
+}
+.image-div {
+  padding: 10px;
+}
+.centre-img {
+  width: 150px;
+  height: 200px;
+}
+#page-footer {
+  border: 2px solid;
+  margin: 5px 0;
+  padding: 0 10px;
 }
