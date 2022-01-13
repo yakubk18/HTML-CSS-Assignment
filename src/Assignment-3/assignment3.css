@@ -1,7 +1,66 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+.row {
+  width: 100%;
+  display: flex;
+  padding: 0 0 20px 0;
+}
+.column {
+  display: inline-block;
+  max-width: 50%;
+  flex: 0 0 50%;
+  width: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.section-1 {
+  margin: 0 0 20px 0;
+  background: #f2f2f2;
+  padding: 80px;
+}
+.section-1 h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 42px;
+}
+.para-wrap {
+  padding: 80px;
+}
+.trail-button {
+  background: #000;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 15;
+}
+#render-wiki,
+#render-dictionary {
+  width: 100%;
+  height: 100%;
+}
+.section-2 {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 80px;
+}
+.content {
+  margin: 0px 350px;
+}
+.content h1 {
+  font-size: 35px;
+}
+.iframe-container {
+  width: 100%;
+  min-height: 70vh;
+  margin: 0px 200px;
+}
+.section3 {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 0px;
 }
